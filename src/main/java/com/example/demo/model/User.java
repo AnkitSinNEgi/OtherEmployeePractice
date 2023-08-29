@@ -6,6 +6,24 @@ public class User {
     private String firstName;
     private String lastName;
     private String emailId;
+    private String inTime;
+    public String getInTime() {
+		return inTime;
+	}
+
+	public void setInTime(String inTime) {
+		this.inTime = inTime;
+	}
+
+	public String getOutTime() {
+		return outTime;
+	}
+
+	public void setOutTime(String outTime) {
+		this.outTime = outTime;
+	}
+
+	private String outTime;
 
     public User() {
     }
