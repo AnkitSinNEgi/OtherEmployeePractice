@@ -7,6 +7,7 @@ public class User {
     private String lastName;
     private String emailId;
     private String inTime;
+    private String outTime;
     public String getInTime() {
 		return inTime;
 	}
@@ -22,8 +23,6 @@ public class User {
 	public void setOutTime(String outTime) {
 		this.outTime = outTime;
 	}
-
-	private String outTime;
 
     public User() {
     }

@@ -19,8 +19,8 @@
         <span>First name:</span><span>${user.firstName}</span><br/>
         <span>E-mail:</span><span>${user.emailId}</span><br/>
         <span>Last name:</span><span>${user.lastName}</span><br/>
-        <span>In Time:</span><span>${user.inTime}</span><br/>
-        <span>Out Time:</span><span>${user.outTime}</span><br/>
+      <!--   <span>In Time:</span><span>${user.inTime}</span><br/>
+        <span>Out Time:</span><span>${user.outTime}</span><br/>    -->
     </div>
 </body>
 </html>

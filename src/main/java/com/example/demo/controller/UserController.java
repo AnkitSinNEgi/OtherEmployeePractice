@@ -43,9 +43,7 @@ public class UserController {
     @GetMapping("/users/{id}")
     public User findUserById(@PathVariable Integer id) {
 
-        User user = userRepository.findById(id).
-                orElseThrow(() -> new ResourceNotFoundException
-                        ("User not exist with id :" + id));
+        User user = userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("User not exist with id :" + id));
         return user;
     }
 
